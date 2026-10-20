@@ -1,0 +1,42 @@
+# Local builds, application bundles, installers, and diagnostics
+build/
+dist/
+*.app/
+*.dSYM/
+*.iconset/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.bin
+*.icns
+*.zip
+*.dmg
+*.pkg
+*.log
+
+# Binary artwork and reference media stay local.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.heic
+*.tiff
+*.ico
+*.pdf
+*.mp4
+*.mov
+*.mp3
+*.wav
+
+# Local system/editor files
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
